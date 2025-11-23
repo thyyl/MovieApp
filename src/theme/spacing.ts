@@ -1,0 +1,13 @@
+export const spacing = {
+  xxxs: 3,
+  xxs: 5,
+  xs: 8,
+  sm: 12,
+  md: 16,
+  lg: 20,
+  xl: 32,
+  xxl: 48,
+  xxxl: 64,
+} as const;
+
+export type Spacing = keyof typeof spacing;
